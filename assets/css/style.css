@@ -127,6 +127,7 @@ li {
 }
 
 img,
+video,
 ion-icon,
 a,
 button,
@@ -135,6 +136,12 @@ span {
   display: block;
 }
 
+video{
+   width: 100%;
+  height: 200px;
+  display: block;
+  object-fit: contain;
+}
 button {
   font: inherit;
   background: none;
@@ -235,7 +242,11 @@ article.active {
 .x:hover {
   opacity: 1;
 }
-
+.updated-date {
+  color: var(--light-gray);
+  font-size: var(--fs-7);
+  margin-top: 10px;
+  text-align: right;}
 @keyframes fade {
   0% {
     opacity: 0;
@@ -466,6 +477,7 @@ main {
 
 .social-list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
   gap: 15px;
@@ -1151,11 +1163,19 @@ ul {
   object-fit: cover;
   transition: var(--transition-1);
 }
+.project-img video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: var(--transition-1);
+}
 
 .project-item > a:hover img {
   transform: scale(1.1);
 }
-
+.project-item > a:hover video {
+  transform: scale(1.1);
+}
 .project-title,
 .project-category {
   margin-left: 10px;
