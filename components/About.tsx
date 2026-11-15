@@ -11,29 +11,25 @@ export default function About({ active }: AboutProps) {
 
       <section className="about-text">
         <p>
-          I&apos;m a Full Stack Web Developer with a passion for crafting robust
-          and efficient backend systems. While adept in both front-end and
-          back-end development, my true thrill lies in architecting the core
-          functionalities that power a seamless user experience.
-          I&apos;m Full Stack Web Developer and a Open Source Contributer and
-          Maintainer from Dhanbad, India, working in Software development. I
-          enjoy turning complex problems into simple, scalable and stable
-          solutions.
+          I&apos;m a Junior Software Engineer at ENTNT and a B.Tech student at
+          NIT Srinagar. I build backend systems with C#, ASP.NET Core, and
+          Node.js — integrating third-party platforms through REST APIs and
+          webhooks, from orthodontic patient management to vessel internet
+          portals running on Linux networking.
         </p>
 
         <p>
-          A self-proclaimed tech enthusiast, I&apos;m constantly invigorated by
-          the ever-evolving landscape of the industry. My curiosity extends to
-          emerging technologies like Blockchain and Machine Learning, allowing
-          me to stay informed and integrate these advancements into my solutions
-          when appropriate.
+          My sweet spot is the core logic that powers a product: decoupled
+          services connected through Redis Streams, order-book matching engines,
+          real-time updates over WebSockets, and data persisted cleanly through
+          Prisma and Entity Framework Core.
         </p>
 
         <p>
-          Beyond the back-end, I&apos;ve also gained valuable experience in
-          UI/UX design. My Projects have garnered positive feedback,
-          demonstrating my ability to bridge the gap between technical expertise
-          and user-centric design principles.
+          I also work across the stack with React, Angular, and Next.js, and I
+          automate business workflows with n8n and LLMs — including running
+          local models through Ollama. I enjoy turning complex problems into
+          simple, scalable, and stable solutions.
         </p>
       </section>
 
@@ -45,46 +41,46 @@ export default function About({ active }: AboutProps) {
             <div className="service-icon-box">
               <img
                 src="/icon-dev.svg"
-                alt="Web development icon"
+                alt="Backend development icon"
                 width="40"
               />
             </div>
 
             <div className="service-content-box">
-              <h4 className="h4 service-item-title">Web development</h4>
+              <h4 className="h4 service-item-title">Backend development</h4>
 
               <p className="service-item-text">
-                Building the future by developing Web Applications using a blend
-                of front-end and back-end technologies.
+                C#, ASP.NET Core, and Node.js APIs with EF Core, REST, and
+                webhook integrations to third-party platforms.
               </p>
             </div>
           </li>
 
           <li className="service-item">
             <div className="service-icon-box">
-              <img src="/icon-ai.svg" alt="mobile app icon" width="40" />
+              <img src="/icon-ai.svg" alt="AI and automation icon" width="40" />
             </div>
 
             <div className="service-content-box">
-              <h4 className="h4 service-item-title">Machine Learning (AI/ML)</h4>
+              <h4 className="h4 service-item-title">AI &amp; automation</h4>
               <p className="service-item-text">
-                Utilizing Artificial Intelligence (AI) and Machine Learning (ML)
-                to create intelligent and adaptive systems.
+                n8n workflows, LLM-powered automation, and local models through
+                Ollama for business and coding tasks.
               </p>
             </div>
           </li>
 
           <li className="service-item">
             <div className="service-icon-box">
-              <img src="/icon-block.svg" alt="camera icon" width="40" />
+              <img src="/icon-block.svg" alt="System design icon" width="40" />
             </div>
 
             <div className="service-content-box">
-              <h4 className="h4 service-item-title">Blockchain and Web3</h4>
+              <h4 className="h4 service-item-title">System design</h4>
 
               <p className="service-item-text">
-                Exploring the potential of Blockchain technology to
-                revolutionize data security and transparency.
+                Decoupled services over Redis Streams, order-book engines, and
+                real-time WebSocket updates.
               </p>
             </div>
           </li>
@@ -95,11 +91,11 @@ export default function About({ active }: AboutProps) {
             </div>
 
             <div className="service-content-box">
-              <h4 className="h4 service-item-title">System Design</h4>
+              <h4 className="h4 service-item-title">Frontend development</h4>
 
               <p className="service-item-text">
-                Architecting scalable and efficient systems that power seamless
-                user experiences.
+                React, Angular, and Next.js interfaces, from admin portals to
+                e-commerce storefronts.
               </p>
             </div>
           </li>

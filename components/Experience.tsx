@@ -29,19 +29,7 @@ export default function Experience({ active }: ExperienceProps) {
               National Institute of Technology, Srinagar (NIT)
             </h4>
 
-            <span>Bachelor of Technology, 2022 - 2026 (Expected)</span>
-
-            <p className="timeline-text">
-              <strong>Relevent Coursework: </strong> Data Structure, Object
-              Oriented Programming in Java, Big Data, Blockchain
-            </p>
-          </li>
-          <li className="timeline-item">
-            <h4 className="h4 timeline-item-title">
-              Birsa Institute of Technology, Sindri, Dhanbad
-            </h4>
-
-            <span>2021 — 2022</span>
+            <span>Bachelor of Technology, Nov 2022 — Jul 2026</span>
           </li>
         </ol>
       </section>
@@ -57,58 +45,95 @@ export default function Experience({ active }: ExperienceProps) {
         <ol className="timeline-list">
           <li className="timeline-item">
             <h4 className="h4 timeline-item-title">
+              Junior Software Engineer - <i>ENTNT</i>
+            </h4>
+
+            <span>Nov. 2025 — Present</span>
+
+            <p className="timeline-text">
+              <i>
+                C#, ASP.NET Core, EF Core, SQL Server, React, Angular, Linux
+              </i>
+              <br />
+              <br />
+              <strong>
+                Client: Kiwi Ortho — Patient Management Platform
+              </strong>
+              <br />
+              • Backend development for an orthodontic patient management
+              platform, integrating Dental Monitoring and Open Dental through
+              REST APIs and webhooks.
+              <br />
+              • Implemented a QR-code-based patient photo capture workflow: staff
+              generate a patient-specific QR code, patients capture and upload
+              clinical photographs from a mobile web page, and doctors access
+              the images from the desktop application.
+              <br />
+              <br />
+              <strong>
+                Internal Product — Employee Management System
+              </strong>
+              <br />
+              • Developed a leave management system with rolling 365-day leave
+              balance calculations and built employee scheduling functionality.
+              <br />
+              • Refactored attendance and presence checks to evaluate employee
+              presence against each employee&apos;s assigned work schedule.
+              <br />
+              <br />
+              <strong>Client: TMS Shipping</strong>
+              <br />
+              • Developed a captive portal for vessel internet access, supporting
+              user authentication and tracking of network usage.
+              <br />
+              • Worked on Linux networking, including NAT, packet forwarding, and
+              traffic management using iptables/nftables, with DHCP and DNS
+              services.
+              <br />
+              • Built Device Management and Travel Management applications using
+              Microsoft Power Apps, Power Automate, and SharePoint.
+              <br />
+            </p>
+          </li>
+          <li className="timeline-item">
+            <h4 className="h4 timeline-item-title">
+              AI &amp; Automation Intern - <i>AND Business Consulting</i>
+            </h4>
+
+            <span>Aug. 2025 — Oct. 2025</span>
+
+            <p className="timeline-text">
+              • Analysed business workflows and collaborated with stakeholders
+              to implement AI-driven automation for internal and client
+              processes using n8n, LLMs, and AWS.
+              <br />
+            </p>
+          </li>
+          <li className="timeline-item">
+            <h4 className="h4 timeline-item-title">
               Full Stack Developer - <i>Go Studio Production</i>
             </h4>
 
-            <span>July. 2025 — Present</span>
+            <span>Jun. 2025 — Aug. 2025</span>
 
             <p className="timeline-text">
-              • Build and maintained responsive web applications using Next.js
-              and TailwindCSS from scratch improving overall user experience
-              and performance by 25 percent.
-              <br />
-              • Facilitated bi-weekly meetings between designers and backend
-              developers, which decreased design-related bugs by 15 percent and
-              accelerated the development cycle of senior citizen-focused
-              applications.
+              • Built and maintained responsive web applications and delivered
+              user-facing features with design and backend teams using Next.js,
+              Tailwind CSS, and Supabase.
               <br />
             </p>
           </li>
           <li className="timeline-item">
             <h4 className="h4 timeline-item-title">
-              Full Stack Developer - <i>Sukoon Unlimited</i>
+              Engineering Intern - <i>Sukoon Unlimited</i>
             </h4>
 
-            <span>Feb. 2025 — April. 2025</span>
+            <span>Feb. 2025 — Apr. 2025</span>
 
             <p className="timeline-text">
-              • Reduced page load time by 10 percent through updated design
-              standards and best practices. <br />
-              • Optimized an admin portal used by 3+ internal teams to manage
-              20+ service records and user profiles, reducing manual workload
-              by 30 percent and improving data retrieval speed.
+              • Developed reusable frontend components and admin-portal features
+              for a senior-citizen services platform using Next.js and React.
               <br />
-              • Implemented 15+ reusable components and established a scalable
-              component-based architecture, reducing code duplication by 40
-              percent and accelerating development speed.
-              <br />
-            </p>
-          </li>
-          <li className="timeline-item">
-            <h4 className="h4 timeline-item-title">
-              Web Developer - <i>Soven Developers</i>
-            </h4>
-
-            <span>Aug. 2024 — Sep. 2024</span>
-
-            <p className="timeline-text">
-              • Built interactive quiz functionality for a web application
-              utilized by 2 million individuals; collected user feedback leading
-              to identification and resolution of key usability issues. <br />
-              • Redesigned and developed a modern, user-friendly front-end
-              application, increasing user engagement by 30 percent and reducing
-              page load time by 10 percent through updated design standards and
-              best practices. <br />
             </p>
           </li>
         </ol>

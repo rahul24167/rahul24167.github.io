@@ -16,13 +16,13 @@ export default function Sidebar({ open, onToggle }: SidebarProps) {
         </figure>
 
         <div className="info-content">
-          <h1 className="name" title="Vishnu Dev Aggarwal">
+          <h1 className="name" title="Rahul Kumar Choudhary">
             Rahul Kumar
             <br />
             Choudhary
           </h1>
 
-          <p className="title">Software Developer</p>
+          <p className="title">Junior Software Engineer</p>
         </div>
 
         <button className="info_more-btn" data-sidebar-btn onClick={onToggle}>
@@ -50,6 +50,20 @@ export default function Sidebar({ open, onToggle }: SidebarProps) {
                 className="contact-link"
               >
                 rahul24167@gmail.com
+              </a>
+            </div>
+          </li>
+
+          <li className="contact-item">
+            <div className="icon-box">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+
+            <div className="contact-info">
+              <p className="contact-title">Phone</p>
+
+              <a href="tel:+917488662772" className="contact-link">
+                +91 7488 662 772
               </a>
             </div>
           </li>
@@ -117,7 +131,7 @@ export default function Sidebar({ open, onToggle }: SidebarProps) {
 
           <li className="social-item">
             <a
-              href="https://x.com/RahulCh24880330"
+              href="https://x.com/rahul10xtwt"
               target="_blank"
               className="social-link"
             >
@@ -136,7 +150,7 @@ export default function Sidebar({ open, onToggle }: SidebarProps) {
           </li>
         </ul>
       </div>
-      <span className="updated-date">Updated on 01 August 2025</span>
+      <span className="updated-date">Updated on 15 November 2026</span>
     </aside>
   );
 }

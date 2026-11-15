@@ -47,7 +47,7 @@ export default function Contact({ active }: ContactProps) {
 
           <li className="social-item" style={{ height: "5rem", width: "5rem" }}>
             <a
-              href="https://x.com/RahulCh24880330"
+              href="https://x.com/rahul10xtwt"
               className="social-link"
               dangerouslySetInnerHTML={{ __html: xLogoSvg }}
             />
